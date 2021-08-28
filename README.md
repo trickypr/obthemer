@@ -1,2 +1,3 @@
 # obthemer
-A modernised version of obtheme 
+
+A modernized version of obtheme

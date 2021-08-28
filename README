@@ -1,0 +1,20 @@
+# Notes
+The code is a hack-job from 2009 when I was a Python noob (I'm still a noob, but
+less so now). The following are some ideas for how the code could be improved.
+I may never get around to this as I have little time and no real motivation.
+
+First things first, it should be rewritten in Python 3.
+
+The themeElements data structure should be moved to an external,
+user-configurable JSON file so that it can be updated independently. It's
+practically in JSON format already and it would be trivial to export it.
+
+FUSE is likely overkill. I don't even remember right how much it handles, but
+it would be worth investigating FIFOs as replacements.
+
+All of the has_key and other noobish tests should be replaced with proper
+try/except blocks. There's probably a load of other conventions that need to be
+changed.
+
+# Contributors
+See the CHANGELOG

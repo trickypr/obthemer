@@ -1,0 +1,9 @@
+# 2013-02-20
+* added more changes submitted by Stophe ("Quit" item in file menu, default window size, replacement of "has_key" with "in" tests).
+* modified FUSE directory handling to detect symlinked paths and existing mounts
+* modified filter categories
+
+# 2013-02-14
+* added changes submitted by Stophe (combo box category filter, default value bug fix)
+
+This is the first change in years... looking at my old code makes me cringe a little.
